@@ -1,0 +1,26 @@
+{
+    "name": "apacz/mail-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "MailBundle",
+    "authors": [
+        {
+            "name": "Paweł Nowak",
+            "email": "apach87@gmail.com"
+        }
+    ],
+    "version": "",
+    "autoload": {
+        "psr-4": {
+            "Apacz\\MapBundle\\": ""
+        }
+    }
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "symfony/symfony": "3.3.*",
+        "twig/twig": "^1.0||^2.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^3.0"
+    }
+}

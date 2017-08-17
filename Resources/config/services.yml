@@ -1,0 +1,4 @@
+services:
+    abstract_mailer:
+        class: Apacz\MailBundle\Service\AbstractMailer
+        arguments: ['@mailer','%email_address%','@templating']

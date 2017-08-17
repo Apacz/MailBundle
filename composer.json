@@ -12,7 +12,7 @@
     "version": "",
     "autoload": {
         "psr-4": {
-            "Apacz\\MapBundle\\": ""
+            "Apacz\\MailBundle\\": ""
         }
     },
     "require": {
